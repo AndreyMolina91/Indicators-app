@@ -1,0 +1,22 @@
+mat-icon{
+    font-size: 30px;
+    margin-right: 15%;
+}
+
+mat-nav-list{
+    margin-top: 70px;
+}
+
+.mat-list-item{
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 0;
+}
+
+.active-list-item {
+    background: #464649 !important; /* Note: You could also use a custom theme */
+    mat-icon, span{
+        color: #017bff;
+    }
+  }

@@ -1,0 +1,5 @@
+<mat-nav-list>
+    <a mat-list-item routerLinkActive="active-list-item" [routerLink]="nav.route" *ngFor="let nav of fillerNav">
+        <mat-icon>{{nav.icon}}</mat-icon> <span>{{nav.name}}</span> 
+    </a>
+</mat-nav-list>
