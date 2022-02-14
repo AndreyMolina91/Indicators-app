@@ -66,7 +66,7 @@ export class DolarIntercambioChartComponent implements OnInit {
           type: 'areaspline'
         },
         title: {
-          text: '$' + this.indicatorDolarIntercambioModel.serie[0].valor
+          text: '$ ' + this.indicatorDolarIntercambioModel.serie[0].valor
         },
         legend: {
           layout: 'vertical',

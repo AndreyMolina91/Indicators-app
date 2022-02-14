@@ -70,10 +70,10 @@ export class TpmChartComponent implements OnInit {
           enabled: false
         },
         title: {
-          text: this.indicatorTpmModel.nombre
+          text: '% ' + this.seriesModel.valor[0]
         },
         tooltip: {
-          pointFormat: '{series.name}: 5.5 <b>{point.percentage:.1f}%</b>'
+          pointFormat: '{series}: <b>{point.percentage:.1f}%</b>'
         },
         accessibility: {
           point: {

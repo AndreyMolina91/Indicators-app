@@ -69,7 +69,7 @@ export class LibraCobreChartComponent implements OnInit {
           type: 'areaspline'
         },
         title: {
-          text: '$' + this.indicatorLibraCobreModel.serie[0].valor
+          text: '$ ' + this.indicatorLibraCobreModel.serie[0].valor
         },
         legend: {
           layout: 'vertical',

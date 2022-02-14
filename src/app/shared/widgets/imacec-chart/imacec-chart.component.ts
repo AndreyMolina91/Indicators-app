@@ -66,7 +66,7 @@ export class ImacecChartComponent implements OnInit {
           type: 'areaspline'
         },
         title: {
-          text: '%' + this.indicatorImacecModel.serie[0].valor
+          text: '% ' + this.indicatorImacecModel.serie[0].valor
         },
         legend: {
           layout: 'vertical',

@@ -67,7 +67,7 @@ export class IpcChartComponent implements OnInit {
           type: 'areaspline'
         },
         title: {
-          text: '%' + this.indicatorIpcModel.serie[0].valor
+          text: '% ' + this.indicatorIpcModel.serie[0].valor
         },
         legend: {
           layout: 'vertical',
